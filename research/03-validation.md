@@ -212,4 +212,80 @@ New evidence:
 
 ## Round 5 — Adversarial review
 
-*(Written below, after the independent reviewer's report.)*
+A separate agent with no stake in the ideas read files 01–03 and ran about 35 new searches under the same labelling rules. It wrote the strongest honest failure case for each survivor. Its full report is in `03a-adversarial-review-raw.md`. Below, each point gets an answer with evidence, or is **conceded**. Its two most decisive claims were re-checked with my own searches before relying on them:
+
+- **HoneyBook:** confirmed. HoneyBook's own help centre describes AI follow-up suggestions for "unconverted leads … who haven't engaged in more than 3 months". Separately: "When HoneyBook identifies that a project might be completed, it'll suggest you send a referral request", with a referral link to a lead form [SE help.honeybook.com/en/articles/11669595; /9055403; August 2025 product update].
+- **Jobber:** confirmed. "Referrals as a $29 USD per month add-on for all plans … Marketing Suite for $79USD per month … referrals, reviews, and campaigns"; Reviews add-on $39/mo [SE help.getjobber.com/hc/en-us/articles/20959257809815, official help].
+- **Act! survey:** confirmed. "Only about 1 in 10 sole proprietors reported using CRM software" (Act!/Researchscape, 1,146 US SMBs, May 2022, old) [SE marketingcharts.com/…-226721; businesswire.com 26 Jul 2022].
+
+### Points against all three ideas
+
+| Point | Answer |
+|---|---|
+| A1 The founder may not be able to get paid (Dodo's Nepal status unconfirmed; users blocked at onboarding) | **Conceded as an open risk.** Not a reason to prefer one idea over another; it gates all of them. It must be confirmed in writing first (see `04`). |
+| A2 Only 11% of sole proprietors use CRM software (2022) | **Conceded.** Re-checked and confirmed. It cuts both ways ("under-served" vs "don't want it"), and no evidence was found that settles which. Unanswered. |
+| A3 Micro-business churn about 8.9%/mo, 4.6-month average contracts | **Partly answered.** The figure comes from vendor blogs that probably share one dataset, so it is weak. But I have nothing better than Recurly's 3.6–6.5%, so the lifetime range has to widen to about 11–28 months. That widening weakens the economics. |
+| A4 No study shows a prompted *ask* adds referrals rather than taking credit for ones that would happen anyway; referral coupons underperform regular coupons (Iyengar) | **Conceded.** My Round 3 support (Schmitt et al. 2011) shows referred customers are *more valuable*, not that *asking* creates them. This is the central claim of all three ideas and no evidence answers it. |
+| A5 Spreadable (referral tool for small businesses) shut down months after launch despite about $550k invested; Ambassador reached end of life in 2021 | **Partly answered.** Old precedents (2010, 2021), and Spreadable sent emails from a service, which the user-sends design avoids. But a better-funded attempt at the same job failed, and I have no counter-example of a solo-priced referral tool succeeding. |
+| A6 Attribution: more than half of small firms don't track customer sources (22% no tracking, 34% informal) [SE pymnts.com 2026] | **Conceded.** If users can't see the return, they can't verify "earn more than you pay", and that undermines retention, the reason they'd keep paying. |
+| A7 The home market can't pay USD easily; Indian buyers pay about 50% less; the $500 dollar-card cap | **Conceded.** Consistent with my own 01 findings. |
+
+### #4 Local review-and-referral engine
+
+| Reviewer's point | Answer |
+|---|---|
+| 1 Google gives a free review link and QR, and suggests sending via WhatsApp [SE support.google.com/business/answer/16816815] | **Conceded.** The review half of the product is free from Google. |
+| 2 Jobber ($29 Referrals, $79 suite), Housecall Pro (auto review on job completion) and Fresha already trigger asks automatically | **Conceded**, re-checked for Jobber. #4 has no trigger event; the incumbents do. |
+| 3 Manual sending makes users drop off | **Conceded**, by inference; the Dex founder's account supports it. |
+| 4 Reach is close to nil | **Conceded.** R was already 3. |
+| 5–8 (price-switchers, "full" churn, incentive risk, half-proven mechanism) | 6 partly answered (review recency gives a reason to keep asking, BrightLocal 74%); the others are conceded. |
+
+**Verdict: killed.** The strongest failure case (free Google tools plus incumbents with automatic triggers plus no reach) stands unanswered.
+
+### #5 Client garden
+
+| Reviewer's point | Answer |
+|---|---|
+| 3 HoneyBook shipped reactivation, timed referral asks and referral-source tracking in August 2025 | **Conceded, re-checked.** Round 2's "no focused competitor found" is overturned for the paying end of the segment. |
+| 2 Personal CRM is a graveyard; Dex (YC-backed) took about 2.5 years to reach 1,000 customers at an LTV of about $231 | **Conceded** (old figures, but no counter-evidence). |
+| 1 The paying segment excludes the founder's own marketplace-dependent community | **Conceded.** Already flagged in Round 3. |
+| 4–8 (free Monica and calendar substitutes; too infrequent for a subscription; asking is contested; attribution; regional price) | **Conceded.** No evidence answers them. |
+
+**Verdict: killed.** The strongest failure case stands unanswered.
+
+### #6 Tutor growth kit
+
+| Reviewer's point | Answer |
+|---|---|
+| 1 Full tutors don't need it; empty tutors have no parents to ask | **Not answered.** The paying "middle" segment (established, not full) has unknown size. No survey of tutors' capacity or enquiry levels was found. |
+| 2 Capacity cap plus seasonality ("summer break can cut tutoring revenue") | **Partly answered.** The waitlist is useful precisely when a tutor is full, and UK demand is broad (Sutton Trust: 29% of secondary pupils have ever had a private tutor, 11% in 2025 alone [SE suttontrust.com Private-Tutoring-2026.pdf, Feb 2026]). Neither fixes summer churn. |
+| 3 TutorBird holds the data and can add the feature; Wyzant has its own referral programme; cheaper tools in South Asia (Wise, Teachmint) | **Partly answered.** No evidence found that TutorBird has shipped growth features (its Capterra complaints are about admin). Wyzant's programme is for bringing students *onto* Wyzant, and those lessons carry a 9% student service fee [SE support.wyzant.com fee page]. But copy risk is real and unanswered. |
+| 4 The most motivated users (escaping marketplace commission) are the ones the product must refuse | **Conceded.** This removes the emotional hook. |
+| 5 Mechanism evidence is one vendor anecdote; referral coupons underperform | **Conceded** (same as A4). |
+| 6 Nepali tutors earn NPR 5,000–30,000 a month per student but can't pay USD easily; paying markets are unreachable | **Conceded.** |
+| 7 Progress notes are a chore; tutors ask for admin, not growth | **Partly answered** (AI drafting cuts the effort), but the demand signal is conceded. |
+| 8 Data about minors raises the compliance bar | **Conceded** as added cost, not a blocker. |
+| 9 Tutorspree and FEV Tutor shut down | **Answered.** Those are marketplace and school-contract businesses, a different model; little weight. |
+
+**Verdict: killed.** The strongest failure case (the full-or-empty paradox plus an unproven ask mechanism) stands unanswered. The kill criterion requires elimination.
+
+### Final scores after Round 5 (recorded for the record, although all three were eliminated)
+
+| # | D | E | W | R | Df | F | Rt | **Total** | Changes from Round 4 |
+|---|---|---|---|---|---|---|---|---|---|
+| 4 Local engine | 6 | 5 (LC) | 6 | 3 | **2** | 6 | **5** | **4.85** | Df: Google free link and Jobber/HCP triggers. Rt: "full" churn. |
+| 5 Client garden | 6 | **4** (LC) | 5 | **4** | **2** | 6 | **4** | **4.55** | Df: HoneyBook shipped the core. E/R: home audience excluded. Rt: infrequent use. |
+| 6 Tutor kit | **5** | **6** (LC) | 5 | **4** | **5** | 6 | **4** | **5.05** | D: full-or-empty paradox. E: mechanism unproven. R: no channel found. Df: copy risk. Rt: seasonality and capacity. |
+
+### Elimination log (all 18 ideas)
+
+| Round | Killed | Main reason |
+|---|---|---|
+| Pre-screen | LinkedIn automation, off-platform client mover, scraped-lead cold email, escrow marketplace, incentivised reviews | Ethics, law, platform terms |
+| 1 Demand | 9 AI receptionist, 10 referral circle, 12 Nepal tuition marketplace, 13 Nepal home services, 14 South Asian talent marketplace, 15 development-sector digest, 18 Hamro Page | Evidence thin, seller-only, or shows a shrinking market |
+| 2 Competition | 1 Upwork Radar, 2 proposal coach, 3 intent monitor, 7 photographers, 8 GBP autopilot, 11 lead accelerator, 16 sponsor finder | Free or dominant incumbent, no defensible difference |
+| 3 Economics | none | 4, 5 and 6 carried forward as weakly supported, low confidence |
+| 4 Feasibility | 17 client-acquisition sprint | Dodo and Paddle both exclude coaching and done-for-you services |
+| 5 Adversarial | 4 local engine, 5 client garden, 6 tutor kit | Strongest failure case unanswered |
+
+**Result: no idea survives all five rounds.** The highest final score is 5.05 (tutor kit), below the 6.0 "test first" bar and far below the 7.0 "build" bar set before scoring.
